@@ -1,0 +1,63 @@
+name: responsive_portfolio
+description: A comprehensive responsive portfolio Flutter app for Android, Web, and Linux.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+    
+  # Core UI and Animation
+  flutter_animate: ^4.5.0
+  animations: ^2.0.11
+  flutter_staggered_animations: ^1.1.1
+  
+  # Responsive Design
+  flutter_screenutil: ^5.9.3
+  
+  # State Management
+  provider: ^6.1.2
+  
+  # UI Components
+  google_fonts: ^6.2.1
+  font_awesome_flutter: ^10.7.0
+  cached_network_image: ^3.4.1
+  
+  # Utilities
+  url_launcher: ^6.3.1
+  path_provider: ^2.1.4
+  shared_preferences: ^2.3.2
+  
+  # Development
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/fonts/
+    
+  # fonts:
+    # - family: 'SpaceGrotesk'
+    #   fonts:
+    #     - asset: assets/fonts/SpaceGrotesk-Regular.ttf
+    #     - asset: assets/fonts/SpaceGrotesk-Bold.ttf
+    #       weight: 700
+    #     - asset: assets/fonts/SpaceGrotesk-Light.ttf
+    #       weight: 300
